@@ -209,7 +209,7 @@
 <div class="toast" id="toast">
   <div class="toast-avatar" id="toastAv">DK</div>
   <div class="toast-info">
-    <div class="toast-name" id="toastName">David K. claimed $750</div>
+    <div class="toast-name" id="toastName">David K. claimed $500</div>
     <div class="toast-sub"  id="toastSub">Miami, FL &bull; 3m ago</div>
   </div>
   <div class="toast-dot"></div>
@@ -237,7 +237,7 @@
     const col = colors[idx % colors.length];
     const toast = document.getElementById('toast');
 
-    document.getElementById('toastName').textContent = e.name + " claimed $750";
+    document.getElementById('toastName').textContent = e.name + " claimed $500";
     document.getElementById('toastSub').innerHTML = e.city + " &bull; " + e.mins + "m ago";
     const av = document.getElementById('toastAv');
     av.textContent = e.initials;
